@@ -1,7 +1,24 @@
+body {
+    height:100%;
+}
 li {
-	float:right;
-	display: inline;
+    display: inline;
+    float:right;
+}
+.espacio {
+    clear:both;
+    height:146px; 
+}
 
+center {
+}
+
+.contlog {
+    position:relative;
+    
+}
+.logo {
+    
 }
 a.panel {
 	color: #5f6368;
@@ -25,16 +42,12 @@ a.login {
     background: #4285f4;
     background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     background: linear-gradient(top,#4387fd,#4683ea);
-
 }
 
 #searchform.big .RNNXgb {
     width: 582px;
 }
 .RNNXgb {
-	position: absolute;
-	top: 35%;
-	left: 35%;
 
     background: #fff;
     display: flex;
@@ -46,7 +59,10 @@ a.login {
     height: 44px;
     margin: 0 auto;
     width: 582px;
+    margin-top: 26px;
+    margin-bottom: 16px;
 }
+
 .RNNXgb:hover {
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
@@ -73,13 +89,7 @@ a.login {
     height: 34px !important;
 }
 
-center {
-	position: inherit;
-    display: block;
-    text-align: -webkit-center;
-    top:150%;
-    left:20%;
-}
+
 .gNO89b {
 	font-size: 14px;
     margin: 11px 4px;
@@ -100,19 +110,8 @@ center {
 	box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
 }
 .butonsdiv {
-	position: absolute;
-	top: 42%;
-	left:41%;
+	
 }
-
-.logo {
-	position: absolute;
-	display: block;
-	margin: auto;
-	top:21%;
-	left:43%;
-}
-
 
 a, body {
 	font-family: arial,sans-serif;
@@ -190,4 +189,10 @@ a.Fx4vi {
     padding-left: 27px;
     margin: 0 !important;
 }
+
+
+
+
+	
+	
 
